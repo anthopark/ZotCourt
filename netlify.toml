@@ -1,0 +1,3 @@
+[build]
+  command = "cd nextjs-app && npm run build && npm run export"
+  publish = "nextjs-app/out"
