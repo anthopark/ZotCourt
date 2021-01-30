@@ -4,11 +4,9 @@ const cors = require('cors');
 require('dotenv').config();
 require('./src/mongoose');
 
-console.log(process.env.ATLAS_URI);
 
-// const courseRouter = require('./src/routers/course');
-// const planRouter = require('./src/routers/plan');
-// const contactRouter = require('./src/routers/contact');
+const courtRouter = require('./src/routers/court');
+
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -16,9 +14,8 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
-// app.use(courseRouter);
-// app.use(planRouter);
-// app.use(contactRouter);
+app.use(courtRouter);
+
 
 
 app.listen(port, () => {

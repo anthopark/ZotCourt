@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
+const Court = require('./models/court');
 
 const DB_URI = process.env.ATLAS_URI;
-console.log(process.env.ATLAS_URI);
 
 mongoose.connect(DB_URI, {
     useNewUrlParser: true,
@@ -11,6 +11,7 @@ mongoose.connect(DB_URI, {
 
 const connection = mongoose.connection;
 
-connection.once('open', () => {
+connection.once('open', async () => {
     console.log('MongoDB database connection established successfully');
+
 });
