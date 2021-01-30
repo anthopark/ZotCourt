@@ -1,0 +1,16 @@
+{
+    "courts" : [
+        {
+            "name": "Court 1",
+            "location": "UC Irvine"
+        },
+        {
+            "name": "Court 2",
+            "location": "Irvine Valley College"
+        },
+        {
+            "name": "Court 3",
+            "location": "Irvine Valley College"
+        }
+    ]
+}

@@ -12,9 +12,8 @@ export default function Home() {
       </Head>
 
       <Layout />
-      <Main>
-        <h2>Hi</h2>
-      </Main>
+      <Main ></Main>
+
 
     </div>
   )
