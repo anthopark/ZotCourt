@@ -1,0 +1,36 @@
+{
+    "courts": [
+        {
+            "courtId": 1,
+            "courtName": "Cypress Village Basketball Court",
+            "streetAddr": "255 Visions",
+            "restAddr": "Irvine, CA 92620",
+            "occupied": false,
+            "checkedIn": 0
+        },
+        {
+            "courtId": 2,
+            "courtName": "Irvine Valley College Basketball Court",
+            "streetAddr": "5500 Irvine Center Dr",
+            "restAddr": "Irvine, CA 92618",
+            "occupied": false,
+            "checkedIn": 0
+        },
+        {
+            "courtId": 3,
+            "courtName": "OC Great Park Basketball Court",
+            "streetAddr": "238 Merit",
+            "restAddr": "Irvine, CA 92618",
+            "occupied": false,
+            "checkedIn": 0
+        },
+        {
+            "courtId": 4,
+            "courtName": "UC Irvine Basketball Court",
+            "streetAddr": "255 Visions",
+            "restAddr": "Irvine, CA 92620",
+            "occupied": false,
+            "checkedIn": 0
+        }
+    ]
+}
