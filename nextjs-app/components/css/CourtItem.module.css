@@ -1,4 +1,5 @@
 .container {
     height: 10rem;
     background-color: rgb(185, 127, 185);
+    /* display: flex; */
 }
