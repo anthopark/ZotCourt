@@ -24,9 +24,10 @@ const Main = () => {
             const response = await getCourtAll();
             sortById(response)
             setCourts(response);
+            console.log(response);
         }
 
-        getCourts();
+        setInterval(getCourts, 1000); // making request every 1 sec
     }, [])
 
     return ( 

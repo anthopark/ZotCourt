@@ -53,7 +53,16 @@ router.post('/api/court/check-in', logRequest, async (req, res) => {
 router.post('/api/court/occupied', logRequest, async (req, res) => {
     const { courtId } = req.body
 
-    res.status(StatusCodes.OK).send();
+    try {
+        const court = await Court.findOne({ courtId });
+        court.occupied = true;
+        await court.save();
+        res.status(StatusCodes.OK).send();
+    } catch (e) {
+        res.status(StatusCodes.INTERNAL_SERVER_ERROR).send(e.toString());
+    }
+
+
 })
 
 
@@ -61,7 +70,14 @@ router.post('/api/court/occupied', logRequest, async (req, res) => {
 router.post('/api/court/vacant', logRequest, async (req, res) => {
     const { courtId } = req.body
 
-    res.status(StatusCodes.OK).send();
+    try {
+        const court = await Court.findOne({ courtId });
+        court.occupied = false;
+        await court.save();
+        res.status(StatusCodes.OK).send();
+    } catch (e) {
+        res.status(StatusCodes.INTERNAL_SERVER_ERROR).send(e.toString());
+    }
 })
 
 
