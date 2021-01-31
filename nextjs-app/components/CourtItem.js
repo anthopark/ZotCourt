@@ -19,8 +19,6 @@ const CourtItem = (props) => {
   )
 
 
-
-
   return (
     <div className={styles.container}>
       {props.courtName}
