@@ -1,0 +1,30 @@
+.container {
+display: flex;
+}
+
+.checkInBtn {
+  
+  background-color: #F37C4C;
+  color: #fff;
+  padding: .9rem 1rem;
+  width: 9rem;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: none;
+  margin-top: .8rem;
+  margin-right: .7rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.statusContainer {
+  font-size: 1.2rem;
+  padding-top: 1.6rem;
+}
+.statusContainer p {
+  display: inline;
+  margin-left: .3rem;
+}
+
+
