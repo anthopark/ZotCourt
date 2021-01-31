@@ -1,5 +1,11 @@
 .container {
-    width: 7rem;
-    height: 7rem;
-    background-color: red;
+    /* width: 5rem;
+    height: 5rem;
+    background-color: red; */
+}
+
+/* modify the size of logo */
+.zotLogo {
+  width: 11rem;
+  height: 11rem;
 }
