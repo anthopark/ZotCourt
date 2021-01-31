@@ -1,5 +1,5 @@
-import Socket from "./socket";
 import { BaseURL, EPs } from "./endpoints.json";
+import axios from 'axios';
 
 const base = axios.create({
     baseURL: BaseURL
