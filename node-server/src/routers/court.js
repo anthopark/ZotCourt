@@ -53,6 +53,8 @@ router.post('/api/court/check-in', logRequest, async (req, res) => {
 router.post('/api/court/occupied', logRequest, async (req, res) => {
     const { courtId } = req.body
 
+    console.log(typeof courtId, courtId);
+
     try {
         const court = await Court.findOne({ courtId });
         court.occupied = true;
