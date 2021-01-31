@@ -1,0 +1,18 @@
+.container {
+    background-color: rgb(69, 69, 187);
+    height: 55vh;
+    position: relative;
+}
+
+.logoContainer {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.searchBarContainer {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
