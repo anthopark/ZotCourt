@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Zot Court+</title>
+        <link rel="icon" type="image/svg+xml" href="/zot-favicon.svg" />
       </Head>
       <Layout />
     </div>
