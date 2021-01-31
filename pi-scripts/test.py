@@ -73,7 +73,7 @@ while True:
     #if less than 20 seconds, then 
     #time.time keeps updating. currentTime is a snapshot.
     if(currentTime <= (time.time() - 20)) and currentTime != 0:
-        x = requests.post(vacancyDetectedPost, json = courtDetected)
+        x = requests.post(vibrationDetectedPost, json = courtDetected)
         print(x.status_code)
         print "Vacant"
         currentTime = 0
