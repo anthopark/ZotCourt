@@ -1,10 +1,16 @@
 .container {
-    background-color: rgb(69, 69, 187);
+    /* background-color: rgb(69, 69, 187); */
+    background-image: linear-gradient(to bottom, rgba(55, 55, 55, 0.639), rgba(55, 55, 55, 0.639)), url('/background-img.jpg');
     height: 55vh;
+    background-size: cover;
+    background-position: top;
+
+    /* parent... */
     position: relative;
 }
 
 .logoContainer {
+    /* child */
     position: absolute;
     top: 2rem;
     left: 2rem;
@@ -15,4 +21,8 @@
     top: 40%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+}
+
+.searchBarContainer:first-child {
+  /* margin-bottom: 2rem; */
 }
