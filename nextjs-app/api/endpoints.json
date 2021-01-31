@@ -1,8 +1,8 @@
 {
   "BaseURL": "https://zotcourt.herokuapp.com/api",
   "EPs": {
-    "courtAll": "/court/info",
-    "courtInfo": "/court/check-in",
+    "courtAll": "/court/all",
+    "courtInfo": "/court/courtId",
     "courtCheckIn": "/court/check-in"
   }
 }  
