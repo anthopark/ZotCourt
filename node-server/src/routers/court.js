@@ -24,10 +24,10 @@ router.get('/api/court/all', logRequest, async (req, res) => {
 router.get('/api/court/info', logRequest, async (req, res) => {
     const { courtId } = req.query;
 
-    let courts = [];
+    let courts;
 
     try {
-        courts = await Court.find({ courtId });
+        courts = await Court.findOne({ courtId });
         res.status(StatusCodes.OK).send(courts);
     } catch (e) {
         res.status(StatusCodes.INTERNAL_SERVER_ERROR).send(e.toString());
