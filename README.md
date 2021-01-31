@@ -2,7 +2,7 @@
 Full-stack IoT Application HackUCI 2021
 link: https://devpost.com/software/zotcourt
 
-# Steps to make this project (in order)
+# Instructions for project (in order)
 
 ## Set up Raspberry Pi
 - https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up
