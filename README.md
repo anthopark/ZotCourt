@@ -12,7 +12,7 @@ link: https://devpost.com/software/zotcourt
 - Ground (sw-420) <-> ground pin 39(Raspberry Pi)
 - D0 (sw-420) <-> ground pin 16/GPIO 23 (Raspberry Pi) (In the script, it will be noted as : pin = 23 which is just pin 16 on the pi)
 
-## clone repo
+## Clone repo
 - On the command line/Terminal type: git clone https://github.com/anthopark/ZotCourt.git
 
 ## Open client side server (wesite)
