@@ -26,3 +26,15 @@ link: https://devpost.com/software/zotcourt
 - flick or tap sensor
 - success code 200 should appear and the website will update with "someone is playing"
 - after 20 seconds of inactivity from the sensor, the website will update with "empty"
+
+## The Backend Server
+
+The Express.js server handles requests from the Raspberry PI and the frontend application. It implements 3 GET and 1 POST endpoints for the frontend and 2 POST endpoints for the scripts running on the Raspberry PI. The server interacts with MongoDB database deployed on MongoDB ATLAS to retrieve or update basketball court data.
+
+## Run the backend server (Express.js)
+
+``` shell
+cd node-server
+npm install      # installs dependencies
+npm run dev      # runs the application in dev mode
+```
