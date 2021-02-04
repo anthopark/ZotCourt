@@ -27,7 +27,7 @@ const Main = () => {
             console.log(response);
         }
 
-        setInterval(getCourts, 1000); // making request every 1 sec
+        getCourts(); // makes request on initial load
     }, [])
 
     return ( 
