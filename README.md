@@ -15,7 +15,7 @@ link: https://devpost.com/software/zotcourt
 ## Clone repo
 - On the command line/Terminal type: git clone https://github.com/anthopark/ZotCourt.git
 
-## Open client side server (wesite)
+## Open client side server (website)
 - ZotCourt+ front end: https://zotcourt.netlify.app/
 
 ## Run script
